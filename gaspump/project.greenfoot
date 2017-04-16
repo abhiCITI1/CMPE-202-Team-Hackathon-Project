@@ -1,0 +1,22 @@
+#Greenfoot properties
+#Sun Apr 16 14:59:29 PDT 2017
+class.Keypad.superclass=greenfoot.Actor
+project.charset=UTF-8
+mainWindow.height=600
+version=3.0.0
+class.ValidCard.superclass=greenfoot.Actor
+class.ValidCard.image=card-blue-serve.png
+class.MembershipCard.image=gaspump membership card.png
+class.Nozzle.image=gas-pump-nozzle.jpg
+world.lastInstantiated=MyWorld
+class.MyWorld.superclass=greenfoot.World
+class.Keypad.image=keypad.jpg
+class.FakeCard.superclass=greenfoot.Actor
+class.SidebarButtons.superclass=greenfoot.Actor
+mainWindow.y=40
+mainWindow.x=40
+class.SidebarButtons.image=sidebutton.jpg
+class.Nozzle.superclass=greenfoot.Actor
+mainWindow.width=850
+class.FakeCard.image=fake cards.jpg
+class.MembershipCard.superclass=greenfoot.Actor
