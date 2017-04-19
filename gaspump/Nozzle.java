@@ -15,5 +15,15 @@ public class Nozzle extends Actor
     public void act() 
     {
         // Add your action code here.
-    }    
+        String current_state = "not_paid";   
+        if(current_state == "not_paid"){
+            if(Greenfoot.mouseDragged(this)) {          
+                Message mgs = new Message();
+                mgs.setmessage("Sorry, please pay and then fill gas");;
+       
+            }
+        }
+    }
+    
+    
 }
