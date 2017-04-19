@@ -18,9 +18,7 @@ public class Nozzle extends Actor
         String current_state = "not_paid";   
         if(current_state == "not_paid"){
             if(Greenfoot.mouseDragged(this)) {          
-                Message mgs = new Message();
-                mgs.setmessage("Sorry, please pay and then fill gas");;
-       
+                ;
             }
         }
     }
