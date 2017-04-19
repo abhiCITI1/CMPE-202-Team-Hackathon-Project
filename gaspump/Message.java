@@ -15,6 +15,17 @@ public class Message extends Actor
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
     
+    public Message(String msg)
+    {
+       
+         screenimage = new GreenfootImage(250,50);
+         setImage(screenimage);
+         screenimage.clear();
+         screenimage.setColor(Color.WHITE);
+         screenimage.fill();
+         screenimage.setColor(Color.BLACK);
+         screenimage.drawString(msg,0,25);
+    }
     public Message()
     {
        
@@ -24,13 +35,13 @@ public class Message extends Actor
     {
         // Add your action code here.
     }    
-    public void showGumballMessage(Message msg, World w)
+    public void showMessage(Message msg, World w)
     {
-        World thisWorld = w;
+       World thisWorld = w;
         //Instruction inst = new Instruction();
        Message message= msg;
        w.addObject(message,740, 200);
-       msg.setLocation(750, 200);
+       message.setLocation(722, 154);
        
-        }
+    }
 }
