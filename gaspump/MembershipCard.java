@@ -12,6 +12,11 @@ public class MembershipCard extends Cards
      * Act - do whatever the MembershipCard wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
+      public MembershipCard()
+    {
+        GreenfootImage image = getImage() ;
+        image.scale( 150, 100 ) ;           
+    }
     public void act() 
     {
         // Add your action code here.
