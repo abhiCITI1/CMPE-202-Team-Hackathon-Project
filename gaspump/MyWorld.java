@@ -29,6 +29,9 @@ public class MyWorld extends World
         addObject( new MembershipCard(), 159, 312 ) ;
         addObject( new FakeCard(), 153, 525 ) ;
         addObject( new Nozzle(), 1062, 254 ) ;
-    
+        addObject( new DisplayScreen(), 720, 164 ) ;
+        addObject( new Message(), 721, 154);
+     
+
     }
 }
