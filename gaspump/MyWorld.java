@@ -29,7 +29,7 @@ public class MyWorld extends World
         addObject( new MembershipCard(), 159, 312 ) ;
         addObject( new FakeCard(), 153, 525 ) ;
         addObject( new Nozzle(), 1062, 254 ) ; 
-        addObject( new Nozzle(), 1062, 254 ) ;
+        addObject( new CardSlot(), 470, 450 ) ;
         addObject( new DisplayScreen(), 721, 164 ) ;
         addObject( new Message("Welcome to the gas pump station"), 721, 154 ) ;        
         //GreenfootImage Img =new GreenfootImage(250,50);
