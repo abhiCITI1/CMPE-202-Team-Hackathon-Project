@@ -33,26 +33,19 @@ public class DisplayScreen extends Actor
         
         state = msg;
         
-        //greenfootImage = new GreenfootImage("/Users/Abhishek/CMPE202---Team-Hackathon-Project/gaspump/images/zipValidated.png");
+        greenfootImage = new GreenfootImage("/Users/Abhishek/CMPE202---Team-Hackathon-Project/gaspump/images/zipValidated.png");
         
         
         //GreenfootImage greenfootImage1 = new GreenfootImage(greenfootImage);
         
         //message.clear();
         
-        //message.setImage(greenfootImage1);
+        message.setImage(greenfootImage1);
         ///getWorld().addObject(message,700,160);
         
         
         
-        screenimage = new GreenfootImage(350,50);
-         setImage(screenimage);
-         screenimage.clear();
-         screenimage.setColor(Color.WHITE);
-         screenimage.fill();
-         screenimage.setColor(Color.BLACK);
-         screenimage.drawString("Please enter zip code",0,25);
-         getWorld().addObject(message,700,160);
+        
         //setImage(greenfootImage);
         
         if(state.equals("Card Validated"))
